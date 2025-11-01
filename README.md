@@ -22,7 +22,7 @@ Built for the **Arré Voice × AI Hackathon 2025**Built for the **Arré Voice ×
 
 
 
-## 📖 Overview## 📖 Overview
+## 📖 Overview
 
 
 
@@ -32,7 +32,6 @@ Unposted combines voice journaling with emotional analysis and personalized news
 
 ## ✨ Features
 
-## ✨ Features
 
 ### 🎙️ AI Journaling
 
