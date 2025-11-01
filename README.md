@@ -1,285 +1,856 @@
-# 🎙️ Unposted AI Journaling Assistant# 🎙️ Unposted AI Journaling Assistant
+# 🎙️ Unposted AI Journaling Assistant# 🎙️ Unposted AI Journaling Assistant# 🎙️ Unposted AI Journaling Assistant# 🎙️ Unposted AI Journaling Assistant
 
 
 
-> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.
+> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.
 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-
-
-
-Built for the **Arré Voice × AI Hackathon 2025**Built for the **Arré Voice × AI Hackathon 2025**
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 
 
 
-------
+Built for the **Arré Voice × AI Hackathon 2025**[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.> A private, AI-powered journaling assistant with emotional analysis and personalized news integration.
 
 
 
-## 📖 Overview
+---[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 
 
-Unposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.Unposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.
+## 📖 Overview[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 
 
 
-## ✨ Features
+Unposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.
+
+
+
+## ✨ FeaturesBuilt for the **Arré Voice × AI Hackathon 2025**[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
 ### 🎙️ AI Journaling
 
-- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels### 🎙️ AI Journaling
+- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels
 
-- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels
+- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript---[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
-- **Personalized Prompts**: Contextual follow-up questions for tomorrow- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript
-
-- **Privacy First**: Optional PII redaction (emails, phone numbers, addresses)- **Personalized Prompts**: Contextual follow-up questions for tomorrow
+- **Personalized Prompts**: Contextual follow-up questions for tomorrow
 
 - **Privacy First**: Optional PII redaction (emails, phone numbers, addresses)
 
-### 📰 Personalized News
 
-- AI-curated news feed from NewsAPI### 📰 Personalized News
 
-- Category and source filtering- AI-curated news feed from NewsAPI
+### 📰 Personalized News## 📖 Overview[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 
-- Reading history tracking- Category and source filtering
+- AI-curated news feed from NewsAPI
 
-- Smart recommendations based on your behavior- Reading history tracking
+- Category and source filtering
 
-- Smart recommendations based on your behavior
+- Reading history tracking
+
+- Smart recommendations based on your behaviorUnposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.
+
+
 
 ### 🔊 Voice Synthesis
 
-- Text-to-speech for news articles using OpenAI TTS### 🔊 Voice Synthesis
+- Text-to-speech for news articles using OpenAI TTS
 
-- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)- Text-to-speech for news articles using OpenAI TTS
-
-- Adjustable speed and tone- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)
+- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)## ✨ Features Built for the **Arré Voice × AI Hackathon 2025**Built for the **Arré Voice × AI Hackathon 2025**
 
 - Adjustable speed and tone
 
+
+
 ### 🔐 Authentication & Security
 
-- JWT-based authentication via Supabase### 🔐 Authentication & Security
+- JWT-based authentication via Supabase### 🎙️ AI Journaling
 
-- Row-level security (RLS) for data protection- JWT-based authentication via Supabase
+- Row-level security (RLS) for data protection
 
-- Secure password hashing- Row-level security (RLS) for data protection
+- User preferences and settings management- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels
 
-- User preferences and settings management- Secure password hashing
+- Todo/task management with CRUD operations
 
-- User preferences and settings management
+- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript------
 
 ---
 
----│   │       ├── auth.py        # Authentication endpoints- Multiple voice options```bash
+- **Personalized Prompts**: Contextual follow-up questions for tomorrow
 
 ## 🚀 Quick Start
 
-│   │       ├── news.py        # News endpoints
+- **Privacy First**: Optional PII redaction (emails, phone numbers, addresses)
 
 ### Prerequisites
 
-- Python 3.10+│   │       ├── preferences.py # User preferences- Adjustable speed and tonepip install -r requirements.txt
+- Python 3.10+
 
 - Git
 
-- API keys from: Supabase, NewsAPI, OpenAI, Anthropic (optional)│   │       └── voice.py       # Voice & journal endpoints
+- API keys: Supabase, NewsAPI, OpenAI, Anthropic (optional)### 📰 Personalized News## 📖 Overview## 📖 Overview
 
 
 
-### 1. Clone Repository│   ├── tests/                 # Unit tests```
+### 1. Clone Repository- AI-curated news feed from NewsAPI
 
 ```bash
 
-git clone https://github.com/rahulrr-coder/unposted-ai-assistant.git│   ├── examples/              # Usage examples
+git clone https://github.com/rahulrr-coder/unposted-ai-assistant.git- Category and source filtering
 
 cd unposted-ai-assistant
 
-```│   ├── requirements.txt       # Python dependencies### 🔐 Authentication & Privacy
+```- Reading history tracking
 
 
 
-### 2. Set Up Backend│   ├── .env.example          # Environment template
+### 2. Backend Setup- Smart recommendations based on your behaviorUnposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.Unposted combines voice journaling with emotional analysis and personalized news delivery. Speak your thoughts, receive AI-powered emotional insights, and stay informed with curated news tailored to your interests.
 
 ```bash
 
-cd backend│   └── README.md             # Backend documentation- Secure user authentication with JWT## Quick Start
+cd backend
 
 
 
-# Create virtual environment├── client/                    # Streamlit UI (coming soon)
+# Create virtual environment### 🔊 Voice Synthesis
 
 python3 -m venv .venv
 
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate├── start_backend.sh          # Backend start script- Supabase backend
+source .venv/bin/activate  # Windows: .venv\Scripts\activate- Text-to-speech for news articles using OpenAI TTS
 
 
 
-# Install dependencies└── README.md                 # This file
+# Install dependencies- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)## ✨ Features
 
 pip install -r requirements.txt
 
-```- Privacy controls and PII redaction```python
+- Adjustable speed and tone
 
 # Configure environment
 
-cp .env.example .env
+cp .env.example .env## ✨ Features
 
 # Edit .env with your API keys
 
-```## Quick Startfrom src.assistant import JournalingAssistant
+```### 🔐 Authentication & Security
 
 
 
-### 3. Configure Supabase
+### 3. Configure Supabase- JWT-based authentication via Supabase### 🎙️ AI Journaling
 
-1. Go to your [Supabase Dashboard](https://supabase.com)
+1. Create account at [supabase.com](https://supabase.com)
 
-2. Copy your project URL and anon key to `.env`### 1. Backend Setup## Architecture
+2. Copy project URL and anon key to `.env`- Row-level security (RLS) for data protection
 
-3. Run the migration in SQL Editor:
+3. Run migration in SQL Editor:
 
-   - Open Supabase SQL Editor
+   - Open Supabase SQL Editor- User preferences and settings management- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels### 🎙️ AI Journaling
 
-   - Copy contents from `backend/migrations/001_initial_schema.sql`
+   - Copy `backend/migrations/001_initial_schema.sql`
 
-   - Execute the migration```bashassistant = JournalingAssistant()
+   - Execute migration- Todo/task management with CRUD operations
 
 
 
-### 4. Start the Server# Navigate to backend directory
+### 4. Start Server- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript- **Emotional Analysis**: 2-D emotion mapping (valence & arousal) with human-readable labels
 
 ```bash
 
-# From project rootcd backend```
+# From project root---
 
 ./start_backend.sh
 
+- **Personalized Prompts**: Contextual follow-up questions for tomorrow- **Reflection Bullets**: Three concise, first-person reflections grounded in your transcript
 
+# Or manually
 
-# Or from backend directory
-
-cd backend# Create virtual environmentunposted-ai-assistant/input_data = {
+cd backend## 🚀 Quick Start
 
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
-```python3 -m venv .venv
+```- **Privacy First**: Optional PII redaction (emails, phone numbers, addresses)- **Personalized Prompts**: Contextual follow-up questions for tomorrow
 
 
 
-### 5. Access the APIsource .venv/bin/activate  # On Windows: .venv\Scripts\activate├── backend/               # FastAPI server    "transcript": "I had a really good day at work today. My presentation went well.",
+### 5. Access API### Prerequisites
 
 - **API**: http://localhost:8000
 
-- **Interactive Docs**: http://localhost:8000/docs
+- **Interactive Docs**: http://localhost:8000/docs- Python 3.10+- **Privacy First**: Optional PII redaction (emails, phone numbers, addresses)
 
 - **ReDoc**: http://localhost:8000/redoc
 
-# Install dependencies│   ├── app/    "entities": ["work", "presentation"],
+- Git
 
 ---
 
-pip install -r requirements.txt
+- API keys: Supabase, NewsAPI, OpenAI, Anthropic (optional)### 📰 Personalized News
 
 ## 📚 API Endpoints
 
-│   │   ├── main.py       # Application entry    "prosody": {
+
 
 ### Authentication
 
-- `POST /auth/register` - Register new user# Set up environment variables
+- `POST /auth/register` - Register new user### 1. Clone Repository- AI-curated news feed from NewsAPI### 📰 Personalized News
 
 - `POST /auth/login` - Login and get JWT token
 
-- `GET /auth/me` - Get current user profilecp .env.example .env│   │   ├── config.py     # Configuration        "mean_pitch_hz": 180.0,
+- `GET /auth/me` - Get current user profile```bash
 
 
 
-### Todos (Task Management)# Edit .env with your API keys
+### Todosgit clone https://github.com/rahulrr-coder/unposted-ai-assistant.git- Category and source filtering- AI-curated news feed from NewsAPI
 
 - `GET /api/todos` - List all todos (with filters)
 
-- `POST /api/todos` - Create new todo```│   │   ├── database.py   # Supabase client        "pitch_var": 400.0,
+- `POST /api/todos` - Create new todocd unposted-ai-assistant
 
 - `GET /api/todos/{id}` - Get single todo
 
-- `PUT /api/todos/{id}` - Update todo
+- `PUT /api/todos/{id}` - Update todo```- Reading history tracking- Category and source filtering
 
 - `DELETE /api/todos/{id}` - Delete todo
 
-### 2. Configure API Keys│   │   ├── models/       # Pydantic schemas        "rms_energy": 0.05,
+
 
 ### Voice & Journaling
 
-- `POST /voice/journal` - Process journal entry with emotional analysis
+- `POST /voice/journal` - Process journal entry with emotional analysis### 2. Backend Setup- Smart recommendations based on your behavior- Reading history tracking
 
 - `POST /voice/generate` - Generate speech from text (TTS)
 
-- `GET /voice/voices` - List available voice optionsEdit `backend/.env` with your credentials:│   │   ├── services/     # Business logic        "speech_rate_wps": 2.5
+- `GET /voice/voices` - List available voice options```bash
 
 
 
-### News
+### Newscd backend- Smart recommendations based on your behavior
 
 - `GET /news/` - Get personalized news feed
 
-- `GET /news/search?q=query` - Search news articles- **Supabase**: Database and authentication│   │   └── api/          # API endpoints    },
+- `GET /news/search` - Search news articles
 
 - `GET /news/recommendations` - Get AI-recommended articles
 
-- **NewsAPI**: News articles
+# Create virtual environment### 🔊 Voice Synthesis
 
 ### Preferences
 
-- `GET /preferences/` - Get user preferences- **Anthropic**: Claude AI (optional, for future features)│   ├── .env.example      # Environment template    "sentiment": {
+- `GET /preferences/` - Get user preferencespython3 -m venv .venv
 
-- `PUT /preferences/` - Update user preferences
+- `PUT /preferences/` - Update preferences
 
-- `POST /preferences/track-interaction` - Track article interaction- **OpenAI**: Text-to-speech
-
-
-
-📖 **Full API Documentation**: Visit http://localhost:8000/docs after starting the server│   └── README.md         # Backend documentation        "valence": 0.7,
+- `POST /preferences/track-interaction` - Track article interactionsource .venv/bin/activate  # Windows: .venv\Scripts\activate- Text-to-speech for news articles using OpenAI TTS### 🔊 Voice Synthesis
 
 
 
----### 3. Start the Server
+📖 **Full Documentation**: http://localhost:8000/docs
 
 
 
-## 🏗️ Project Structure├── examples/             # Usage examples        "confidence": 0.85
+---# Install dependencies- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)- Text-to-speech for news articles using OpenAI TTS
 
 
 
-``````bash
+## 🏗️ Project Structurepip install -r requirements.txt
+
+
+
+```- Adjustable speed and tone- Multiple voice options (alloy, echo, fable, onyx, nova, shimmer)
 
 unposted-ai-assistant/
 
-├── backend/                    # FastAPI backend server# From project root├── tests/                # Unit tests    },
+├── backend/# Configure environment
 
 │   ├── app/
 
-│   │   ├── main.py            # Application entry point./start_backend.sh
+│   │   ├── main.py              # Application entry pointcp .env.example .env- Adjustable speed and tone
 
-│   │   ├── config.py          # Environment configuration
+│   │   ├── config.py            # Environment configuration
 
-│   │   ├── database.py        # Supabase client└── requirements.txt      # Python dependencies    "language": "en",
+│   │   ├── database.py          # Supabase client# Edit .env with your API keys
 
 │   │   ├── models/
 
-│   │   │   └── schemas.py     # Pydantic models# Or from backend directory
+│   │   │   └── schemas.py       # Pydantic models```### 🔐 Authentication & Security
 
 │   │   ├── services/
+
+│   │   │   ├── ai_service.py        # Journal processing
+
+│   │   │   ├── news_service.py      # News API
+
+│   │   │   ├── voice_service.py     # TTS service### 3. Configure Supabase- JWT-based authentication via Supabase### 🔐 Authentication & Security
+
+│   │   │   └── personalization.py   # Recommendations
+
+│   │   └── api/1. Create account at [supabase.com](https://supabase.com)
+
+│   │       ├── auth.py          # Authentication
+
+│   │       ├── todos.py         # Todo CRUD2. Copy project URL and anon key to `.env`- Row-level security (RLS) for data protection- JWT-based authentication via Supabase
+
+│   │       ├── news.py          # News endpoints
+
+│   │       ├── preferences.py   # User preferences3. Run migration in SQL Editor:
+
+│   │       └── voice.py         # Voice & journal
+
+│   ├── migrations/              # Database migrations   - Open Supabase SQL Editor- Secure password hashing- Row-level security (RLS) for data protection
+
+│   ├── tests/                   # Unit tests
+
+│   ├── examples/                # Usage examples   - Copy `backend/migrations/001_initial_schema.sql`
+
+│   ├── requirements.txt
+
+│   ├── .env.example   - Execute migration- User preferences and settings management- Secure password hashing
+
+│   ├── TESTING.md
+
+│   └── README.md
+
+├── start_backend.sh
+
+└── README.md### 4. Start Server- User preferences and settings management
+
+```
+
+```bash
+
+---
+
+# From project root---
+
+## 🛠️ Tech Stack
+
+./start_backend.sh
+
+### Backend
+
+- **FastAPI** - Modern Python web framework---│   │       ├── auth.py        # Authentication endpoints- Multiple voice options```bash
+
+- **Pydantic v2** - Data validation
+
+- **Supabase** - PostgreSQL database with auth# Or manually
+
+- **NewsAPI** - News aggregation
+
+- **OpenAI** - Text-to-speechcd backend## 🚀 Quick Start
+
+- **Anthropic Claude 3.5** - AI analysis
+
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+---
+
+```│   │       ├── news.py        # News endpoints
+
+## 💻 Usage Example
+
+
+
+```python
+
+from backend.app.services.ai_service import ai_service### 5. Access API### Prerequisites
+
+from backend.app.models.schemas import JournalInput, Prosody, Sentiment
+
+- **API**: http://localhost:8000
+
+input_data = JournalInput(
+
+    transcript="I had a great day today. Everything went well.",- **Interactive Docs**: http://localhost:8000/docs- Python 3.10+│   │       ├── preferences.py # User preferences- Adjustable speed and tonepip install -r requirements.txt
+
+    entities=["work"],
+
+    prosody=Prosody(- **ReDoc**: http://localhost:8000/redoc
+
+        mean_pitch_hz=180.0,
+
+        pitch_var=400.0,- Git
+
+        rms_energy=0.05,
+
+        speech_rate_wps=2.5---
+
+    ),
+
+    sentiment=Sentiment(valence=0.7, confidence=0.85)- API keys from: Supabase, NewsAPI, OpenAI, Anthropic (optional)│   │       └── voice.py       # Voice & journal endpoints
+
+)
+
+## 📚 API Endpoints
+
+result = ai_service.process_journal(input_data)
+
+print(result.model_dump_json(indent=2))
+
+```
+
+### Authentication
+
+Run examples:
+
+```bash- `POST /auth/register` - Register new user### 1. Clone Repository│   ├── tests/                 # Unit tests```
+
+cd backend
+
+python examples/example_usage.py- `POST /auth/login` - Login and get JWT token
+
+```
+
+- `GET /auth/me` - Get current user profile```bash
+
+---
+
+
+
+## 🧪 Testing
+
+### Todosgit clone https://github.com/rahulrr-coder/unposted-ai-assistant.git│   ├── examples/              # Usage examples
+
+```bash
+
+cd backend- `GET /api/todos` - List all todos (with filters)
+
+
+
+# Run tests- `POST /api/todos` - Create new todocd unposted-ai-assistant
+
+python tests/test_ai_service.py
+
+- `GET /api/todos/{id}` - Get single todo
+
+# Or with pytest
+
+pytest tests/- `PUT /api/todos/{id}` - Update todo```│   ├── requirements.txt       # Python dependencies### 🔐 Authentication & Privacy
+
+```
+
+- `DELETE /api/todos/{id}` - Delete todo
+
+See `backend/TESTING.md` for comprehensive API testing guide.
+
+
+
+---
+
+### Voice & Journaling
+
+## 🔑 Environment Variables
+
+- `POST /voice/journal` - Process journal entry with emotional analysis### 2. Set Up Backend│   ├── .env.example          # Environment template
+
+Required in `backend/.env`:
+
+- `POST /voice/generate` - Generate speech from text (TTS)
+
+```env
+
+# Supabase- `GET /voice/voices` - List available voice options```bash
+
+SUPABASE_URL=your-supabase-url
+
+SUPABASE_KEY=your-supabase-anon-key
+
+
+
+# APIs### Newscd backend│   └── README.md             # Backend documentation- Secure user authentication with JWT## Quick Start
+
+NEWS_API_KEY=your-newsapi-key
+
+OPENAI_API_KEY=your-openai-key- `GET /news/` - Get personalized news feed
+
+ANTHROPIC_API_KEY=your-anthropic-key  # Optional
+
+- `GET /news/search` - Search news articles
+
+# Security
+
+SECRET_KEY=your-jwt-secret-key- `GET /news/recommendations` - Get AI-recommended articles
+
+```
+
+# Create virtual environment├── client/                    # Streamlit UI (coming soon)
+
+### Get API Keys
+
+1. **Supabase** - [supabase.com](https://supabase.com)### Preferences
+
+2. **NewsAPI** - [newsapi.org](https://newsapi.org)
+
+3. **OpenAI** - [openai.com](https://openai.com)- `GET /preferences/` - Get user preferencespython3 -m venv .venv
+
+4. **Anthropic** - [anthropic.com](https://anthropic.com)
+
+- `PUT /preferences/` - Update preferences
+
+---
+
+- `POST /preferences/track-interaction` - Track article interactionsource .venv/bin/activate  # On Windows: .venv\Scripts\activate├── start_backend.sh          # Backend start script- Supabase backend
+
+## 🔒 Security & Privacy
+
+
+
+- **JWT Authentication** - Secure token-based auth via Supabase
+
+- **Row-Level Security** - Database policies ensure data isolation📖 **Full Documentation**: http://localhost:8000/docs
+
+- **PII Redaction** - Optional removal of sensitive information
+
+- **Encrypted Storage** - Data encrypted at rest in PostgreSQL
+
+- **Password Hashing** - Secure bcrypt hashing
+
+---# Install dependencies└── README.md                 # This file
+
+---
+
+
+
+## 📄 License
+
+## 🏗️ Project Structurepip install -r requirements.txt
+
+MIT License
+
+
+
+Copyright (c) 2025 Rahul RR
+
+``````- Privacy controls and PII redaction```python
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+unposted-ai-assistant/
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+├── backend/# Configure environment
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+│   ├── app/
+
+---
+
+│   │   ├── main.py              # Application entry pointcp .env.example .env
+
+## 📞 Contact & Support
+
+│   │   ├── config.py            # Environment configuration
+
+**Developer**: Rahul RR  
+
+**GitHub**: [@rahulrr-coder](https://github.com/rahulrr-coder)  │   │   ├── database.py          # Supabase client# Edit .env with your API keys
+
+**Repository**: [unposted-ai-assistant](https://github.com/rahulrr-coder/unposted-ai-assistant)
+
+│   │   ├── models/
+
+**Support**:
+
+- 🐛 [Report issues](https://github.com/rahulrr-coder/unposted-ai-assistant/issues)│   │   │   └── schemas.py       # Pydantic models```## Quick Startfrom src.assistant import JournalingAssistant
+
+- 📖 [Documentation](backend/README.md)
+
+- 🧪 [Testing guide](backend/TESTING.md)│   │   ├── services/
+
+
+
+---│   │   │   ├── ai_service.py        # Journal processing
+
+
+
+**Built for the Arré Voice × AI Hackathon 2025** 🎉│   │   │   ├── news_service.py      # News API
+
+
+│   │   │   ├── voice_service.py     # TTS service### 3. Configure Supabase
+
+│   │   │   └── personalization.py   # Recommendations
+
+│   │   └── api/1. Go to your [Supabase Dashboard](https://supabase.com)
+
+│   │       ├── auth.py          # Authentication
+
+│   │       ├── todos.py         # Todo CRUD2. Copy your project URL and anon key to `.env`### 1. Backend Setup## Architecture
+
+│   │       ├── news.py          # News endpoints
+
+│   │       ├── preferences.py   # User preferences3. Run the migration in SQL Editor:
+
+│   │       └── voice.py         # Voice & journal
+
+│   ├── migrations/              # Database migrations   - Open Supabase SQL Editor
+
+│   ├── tests/                   # Unit tests
+
+│   ├── examples/                # Usage examples   - Copy contents from `backend/migrations/001_initial_schema.sql`
+
+│   ├── requirements.txt
+
+│   ├── .env.example   - Execute the migration```bashassistant = JournalingAssistant()
+
+│   ├── TESTING.md
+
+│   └── README.md
+
+├── start_backend.sh
+
+└── README.md### 4. Start the Server# Navigate to backend directory
+
+```
+
+```bash
+
+---
+
+# From project rootcd backend```
+
+## 🛠️ Tech Stack
+
+./start_backend.sh
+
+### Backend
+
+- **FastAPI** - Modern Python web framework
+
+- **Pydantic v2** - Data validation
+
+- **Supabase** - PostgreSQL database with auth# Or from backend directory
+
+- **NewsAPI** - News aggregation
+
+- **OpenAI** - Text-to-speechcd backend# Create virtual environmentunposted-ai-assistant/input_data = {
+
+- **Anthropic Claude 3.5** - AI analysis
+
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+---
+
+```python3 -m venv .venv
+
+## 💻 Usage Example
+
+
+
+```python
+
+from backend.app.services.ai_service import ai_service### 5. Access the APIsource .venv/bin/activate  # On Windows: .venv\Scripts\activate├── backend/               # FastAPI server    "transcript": "I had a really good day at work today. My presentation went well.",
+
+from backend.app.models.schemas import JournalInput, Prosody, Sentiment
+
+- **API**: http://localhost:8000
+
+input_data = JournalInput(
+
+    transcript="I had a great day today. Everything went well.",- **Interactive Docs**: http://localhost:8000/docs
+
+    entities=["work"],
+
+    prosody=Prosody(- **ReDoc**: http://localhost:8000/redoc
+
+        mean_pitch_hz=180.0,
+
+        pitch_var=400.0,# Install dependencies│   ├── app/    "entities": ["work", "presentation"],
+
+        rms_energy=0.05,
+
+        speech_rate_wps=2.5---
+
+    ),
+
+    sentiment=Sentiment(valence=0.7, confidence=0.85)pip install -r requirements.txt
+
+)
+
+## 📚 API Endpoints
+
+result = ai_service.process_journal(input_data)
+
+print(result.model_dump_json(indent=2))│   │   ├── main.py       # Application entry    "prosody": {
+
+```
+
+### Authentication
+
+Run examples:
+
+```bash- `POST /auth/register` - Register new user# Set up environment variables
+
+cd backend
+
+python examples/example_usage.py- `POST /auth/login` - Login and get JWT token
+
+```
+
+- `GET /auth/me` - Get current user profilecp .env.example .env│   │   ├── config.py     # Configuration        "mean_pitch_hz": 180.0,
+
+---
+
+
+
+## 🧪 Testing
+
+### Todos (Task Management)# Edit .env with your API keys
+
+```bash
+
+cd backend- `GET /api/todos` - List all todos (with filters)
+
+
+
+# Run tests- `POST /api/todos` - Create new todo```│   │   ├── database.py   # Supabase client        "pitch_var": 400.0,
+
+python tests/test_ai_service.py
+
+- `GET /api/todos/{id}` - Get single todo
+
+# Or with pytest
+
+pytest tests/- `PUT /api/todos/{id}` - Update todo
+
+```
+
+- `DELETE /api/todos/{id}` - Delete todo
+
+See `backend/TESTING.md` for API testing guide.
+
+### 2. Configure API Keys│   │   ├── models/       # Pydantic schemas        "rms_energy": 0.05,
+
+---
+
+### Voice & Journaling
+
+## 🔑 Environment Variables
+
+- `POST /voice/journal` - Process journal entry with emotional analysis
+
+Required in `backend/.env`:
+
+- `POST /voice/generate` - Generate speech from text (TTS)
+
+```env
+
+# Supabase- `GET /voice/voices` - List available voice optionsEdit `backend/.env` with your credentials:│   │   ├── services/     # Business logic        "speech_rate_wps": 2.5
+
+SUPABASE_URL=your-supabase-url
+
+SUPABASE_KEY=your-supabase-anon-key
+
+
+
+# APIs### News
+
+NEWS_API_KEY=your-newsapi-key
+
+OPENAI_API_KEY=your-openai-key- `GET /news/` - Get personalized news feed
+
+ANTHROPIC_API_KEY=your-anthropic-key  # Optional
+
+- `GET /news/search?q=query` - Search news articles- **Supabase**: Database and authentication│   │   └── api/          # API endpoints    },
+
+# Security
+
+SECRET_KEY=your-jwt-secret-key- `GET /news/recommendations` - Get AI-recommended articles
+
+```
+
+- **NewsAPI**: News articles
+
+### Get API Keys
+
+1. **Supabase** - [supabase.com](https://supabase.com)### Preferences
+
+2. **NewsAPI** - [newsapi.org](https://newsapi.org)
+
+3. **OpenAI** - [openai.com](https://openai.com)- `GET /preferences/` - Get user preferences- **Anthropic**: Claude AI (optional, for future features)│   ├── .env.example      # Environment template    "sentiment": {
+
+4. **Anthropic** - [anthropic.com](https://anthropic.com)
+
+- `PUT /preferences/` - Update user preferences
+
+---
+
+- `POST /preferences/track-interaction` - Track article interaction- **OpenAI**: Text-to-speech
+
+## 🔒 Security & Privacy
+
+
+
+- **JWT Authentication** - Secure token-based auth via Supabase
+
+- **Row-Level Security** - Database policies ensure data isolation📖 **Full API Documentation**: Visit http://localhost:8000/docs after starting the server│   └── README.md         # Backend documentation        "valence": 0.7,
+
+- **PII Redaction** - Optional removal of sensitive information
+
+- **Encrypted Storage** - Data encrypted at rest in PostgreSQL
+
+- **Password Hashing** - Secure bcrypt hashing
+
+---### 3. Start the Server
+
+---
+
+
+
+## 📄 License
+
+## 🏗️ Project Structure├── examples/             # Usage examples        "confidence": 0.85
+
+MIT License
+
+
+
+Copyright (c) 2025 Rahul RR
+
+``````bash
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
+unposted-ai-assistant/
+
+---
+
+├── backend/                    # FastAPI backend server# From project root├── tests/                # Unit tests    },
+
+## 📞 Contact & Support
+
+│   ├── app/
+
+**Developer**: Rahul RR  
+
+**GitHub**: [@rahulrr-coder](https://github.com/rahulrr-coder)  │   │   ├── main.py            # Application entry point./start_backend.sh
+
+**Repository**: [unposted-ai-assistant](https://github.com/rahulrr-coder/unposted-ai-assistant)
+
+│   │   ├── config.py          # Environment configuration
+
+**Support**:
+
+- 🐛 [Report issues](https://github.com/rahulrr-coder/unposted-ai-assistant/issues)│   │   ├── database.py        # Supabase client└── requirements.txt      # Python dependencies    "language": "en",
+
+- 📖 [Documentation](backend/README.md)
+
+- 🧪 [Testing guide](backend/TESTING.md)│   │   ├── models/
+
+
+
+---│   │   │   └── schemas.py     # Pydantic models# Or from backend directory
+
+
+
+**Built for the Arré Voice × AI Hackathon 2025** 🎉│   │   ├── services/
+
 
 │   │   │   ├── ai_service.py      # Journal processingcd backend```    "privacy": {
 

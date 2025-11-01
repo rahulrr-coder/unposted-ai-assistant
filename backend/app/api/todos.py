@@ -92,9 +92,12 @@ async def create_todo(
         if not response.data:
             raise HTTPException(status_code=500, detail="Failed to create todo")
         
-        logger.info(f"Created todo {response.data[0]['id']} for user {user_id}")
-        return response.data[0]
+        created_todo = response.data[0]
+        logger.info(f"Created todo for user {user_id}")
+        return created_todo
         
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error creating todo: {e}")
         raise HTTPException(status_code=500, detail=str(e))
