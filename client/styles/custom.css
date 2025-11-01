@@ -1,0 +1,47 @@
+/* Custom CSS styles for Streamlit app */
+
+/* Main color scheme */
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #8b5cf6;
+    --background-color: #0f172a;
+    --surface-color: #1e293b;
+    --text-color: #e2e8f0;
+    --accent-color: #22d3ee;
+}
+
+/* Custom card styling */
+.todo-card {
+    background-color: var(--surface-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.news-card {
+    background-color: var(--surface-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Emotion widget styling */
+.emotion-widget {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: var(--surface-color);
+}
