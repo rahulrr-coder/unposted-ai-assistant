@@ -13,9 +13,23 @@ def render_todo_card(todo: dict):
             if todo.get('description'):
                 st.caption(todo['description'])
         with col2:
-            st.badge(todo.get('status', 'pending'))
+            status = todo.get('status', 'pending')
+            status_color = {
+                'pending': '🟡',
+                'in_progress': '🔵',
+                'completed': '🟢',
+                'archived': '⚫'
+            }.get(status, '⚪')
+            st.write(f"{status_color} {status.replace('_', ' ').title()}")
         with col3:
-            st.badge(todo.get('priority', 'medium'), color="warning")
+            priority = todo.get('priority', 'medium')
+            priority_emoji = {
+                'low': '🟢',
+                'medium': '🟡',
+                'high': '🟠',
+                'urgent': '🔴'
+            }.get(priority, '⚪')
+            st.write(f"{priority_emoji} {priority.title()}")
 
 
 def render_news_card(article: dict):

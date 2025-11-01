@@ -1,8 +1,3 @@
 """
-Utility functions
+Utility functions package
 """
-
-
-def __init__.py():
-    """Initialize utils package."""
-    pass
